@@ -1,4 +1,4 @@
-# Device configuration for Nvidia SHIELD Tablet
+# Device configuration for Xiaomi MiPad 1 Tablet (Codename: Mocha)
 
 ## Spec Sheet
 | Feature                 | Specification                     |
@@ -7,22 +7,22 @@
 | Chipset                 | NVIDIA® Tegra K1 T124             |
 | GPU                     | NVIDIA® GK20A (Kepler)            |
 | Memory                  | 2GB RAM                           |
-| Shipped Android Version | 4.4.2                             |
-| Storage                 | 16/32GB                           |
+| Shipped Android Version | 4.4.4                             |
+| Storage                 | 16/64GB                           |
 | MicroSD                 | Up to 128GB                       |
-| Battery                 | 5197 mAh                          |
-| Dimentions              | 221 x 126 x 9.2 mm                |
-| Display                 | 1200 x 1920 pixels                |
-| Release Date            | July 29, 2014                     |
+| Battery                 | 6700 mAh                          |
+| Dimentions              | 202 x 135.4 x 8.5 mm                |
+| Display                 | 1536 x 2048 pixels                |
+| Release Date            | March 25, 2014                     |
 
 ## Device Picture
-![Nvidia SHIELD Tablet ](http://kodinow.com/wp-content/uploads/2015/09/Nvidia-tablet-679x369.png "Nvidia SHIELD Tablet")
+![Xiaomi MiPad ](https://images-eu.ssl-images-amazon.com/images/I/41tGAo7m-nL._SY300_.jpg "Xiaomi MiPad")
 
 ## Copyright
 
 ```
 #
-# Copyright (C) 2015 The CyanogenMod Project
+# Copyright (C) 2017 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
