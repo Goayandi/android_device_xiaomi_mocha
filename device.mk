@@ -131,4 +131,4 @@ $(call inherit-product-if-exists, vendor/xiaomi/mocha_common/consolemode-blobs.m
 # Stock Camera
 $(call inherit-product-if-exists, vendor/xiaomi/mocha_common/nvcamera-blobs.mk)
 
-$(call inherit-product, device/xiaomi/mocha-common/shield.mk)
+$(call inherit-product, device/xiaomi/mocha-common/mocha.mk)
