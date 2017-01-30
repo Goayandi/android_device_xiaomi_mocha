@@ -1,4 +1,4 @@
-# Inherit device configuration for shieldtablet.
+# Inherit device configuration for mocha.
 $(call inherit-product, device/xiaomi/mocha/full_mocha.mk)
 
 # Inherit some common lineage stuff.
