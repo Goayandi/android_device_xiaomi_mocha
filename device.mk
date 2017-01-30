@@ -16,8 +16,8 @@
 
 PRODUCT_AAPT_CONFIG += xlarge large
 PRODUCT_AAPT_PREF_CONFIG := xhdpi
-TARGET_SCREEN_HEIGHT := 1920
-TARGET_SCREEN_WIDTH := 1200
+TARGET_SCREEN_HEIGHT := 2048
+TARGET_SCREEN_WIDTH := 1536
 
 PRODUCT_CHARACTERISTICS := tablet
 TARGET_TEGRA_VERSION := t124
@@ -27,13 +27,13 @@ TARGET_TEGRA_TOUCH := raydium
 $(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
 $(call inherit-product, frameworks/native/build/phone-xxhdpi-2048-hwui-memory.mk)
 
-$(call inherit-product-if-exists, vendor/nvidia/shieldtablet/shieldtablet-vendor.mk)
+$(call inherit-product-if-exists, vendor/xiaomi/mocha/mocha-vendor.mk)
 
 PRODUCT_SYSTEM_PROPERTY_BLACKLIST := ro.product.name
 
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += \
-    device/nvidia/shieldtablet/overlay
+    device/xiaomi/mocha/overlay
 
 # Ramdisk
 PRODUCT_PACKAGES += \
@@ -123,12 +123,12 @@ PRODUCT_PACKAGES += libshim_icu55 \
                     libshim_gpsd
 
 # Wireless Controller
-#$(call inherit-product-if-exists, vendor/nvidia/shield_common/blake-blobs.mk)
+#$(call inherit-product-if-exists, vendor/xiaomi/mocha_common/blake-blobs.mk)
 
 # Console Mode
-$(call inherit-product-if-exists, vendor/nvidia/shield_common/consolemode-blobs.mk)
+$(call inherit-product-if-exists, vendor/xiaomi/mocha_common/consolemode-blobs.mk)
 
 # Stock Camera
-$(call inherit-product-if-exists, vendor/nvidia/shield_common/nvcamera-blobs.mk)
+$(call inherit-product-if-exists, vendor/xiaomi/mocha_common/nvcamera-blobs.mk)
 
-$(call inherit-product, device/nvidia/shield-common/shield.mk)
+$(call inherit-product, device/xiaomi/mocha-common/shield.mk)

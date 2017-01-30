@@ -152,9 +152,9 @@ void vendor_load_properties()
             break;
     }
 
-    property_set("ro.build.product", "shieldtablet");
-    property_set("ro.product.device", "shieldtablet");
-    property_set("ro.product.model", "SHIELD Tablet");
+    property_set("ro.build.product", "mocha");
+    property_set("ro.product.device", "mocha");
+    property_set("ro.product.model", "Mi Pad");
     model = property_get("ro.product.name");
     ERROR("Setting build properties for %s model\n", model.c_str());
 }

@@ -14,9 +14,9 @@
 # limitations under the License.
 #
 
--include device/nvidia/shield-common/BoardConfigCommon.mk
+-include device/xiaomi/mocha-common/BoardConfigCommon.mk
 
-TARGET_SPECIFIC_HEADER_PATH := device/nvidia/shieldtablet/include
+TARGET_SPECIFIC_HEADER_PATH := device/xiaomi/mocha/include
 
 # Architecture
 TARGET_CPU_ABI := armeabi-v7a
@@ -36,8 +36,8 @@ TARGET_HAS_LEGACY_CAMERA_HAL1 := true
 # Kernel
 KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-4.8/bin
 KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
-TARGET_KERNEL_SOURCE := kernel/nvidia/shield
-TARGET_KERNEL_CONFIG := lineageos_shieldtablet_defconfig
+TARGET_KERNEL_SOURCE := kernel/xiaomi/mocha
+TARGET_KERNEL_CONFIG := lineageos_mocha_defconfig
 BOARD_KERNEL_CMDLINE := androidboot.hardware=tn8
 
 TARGET_USERIMAGES_USE_EXT4 := true
@@ -58,7 +58,7 @@ BOARD_USES_ALSA_AUDIO := true
 # Bluetooth
 BOARD_HAVE_BLUETOOTH := true
 BOARD_HAVE_BLUETOOTH_BCM := true
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR ?= device/nvidia/shieldtablet/comms
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR ?= device/xiaomi/mocha/comms
 # At least when debugging is enabled, we have the same crash as manta
 BCM_BLUETOOTH_MANTA_BUG := true
 
@@ -74,7 +74,7 @@ MAX_EGL_CACHE_SIZE := 4194304
 MAX_EGL_CACHE_ENTRY_SIZE := 262144
 
 # Recovery
-TARGET_RECOVERY_FSTAB := device/nvidia/shieldtablet/initfiles/fstab.tn8
+TARGET_RECOVERY_FSTAB := device/xiaomi/mocha/initfiles/fstab.tn8
 
 # Wifi related defines
 BOARD_WPA_SUPPLICANT_DRIVER      := NL80211
@@ -90,13 +90,13 @@ WIFI_DRIVER_FW_PATH_PARAM        := "/sys/module/bcmdhd/parameters/firmware_path
 WIFI_DRIVER_MODULE_ARG           := "iface_name=wlan0"
 WIFI_DRIVER_MODULE_NAME          := "bcmdhd"
 
-BOARD_HARDWARE_CLASS := device/nvidia/shieldtablet/cmhw/
+BOARD_HARDWARE_CLASS := device/xiaomi/mocha/cmhw/
 
 # SELinux
-BOARD_SEPOLICY_DIRS += device/nvidia/shieldtablet/sepolicy
+BOARD_SEPOLICY_DIRS += device/xiaomi/mocha/sepolicy
 
 # Vendor Init
 TARGET_UNIFIED_DEVICE := true
 TARGET_INIT_VENDOR_LIB := libinit_tn8
-TARGET_LIBINIT_DEFINES_FILE := device/nvidia/shieldtablet/init/init_tn8.cpp
+TARGET_LIBINIT_DEFINES_FILE := device/xiaomi/mocha/init/init_tn8.cpp
 
