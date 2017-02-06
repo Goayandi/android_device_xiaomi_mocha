@@ -1,5 +1,8 @@
 # Device configuration for Xiaomi MiPad 1 Tablet (Codename: Mocha)
 
+Build LineageOS for Xiaomi MiPad 
+https://github.com/Goayandi/lineageos/
+
 ## Spec Sheet
 | Feature                 | Specification                     |
 | :---------------------- | :-------------------------------- |
