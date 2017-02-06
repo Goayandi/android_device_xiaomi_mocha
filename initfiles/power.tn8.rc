@@ -4,14 +4,14 @@
 #  powernode2 maxperf optimized maxbatterylife
 #  ......
 #  powernoden maxperf optimized maxbatterylife
-#  panelresolution=[xres]X[yres], such as panelresolution=1920X1080
+#  panelresolution=[xres]X[yres], such as panelresolution=2048X1536
 #  powernode1 maxperf optimized maxbatterylife
 #  powernode2 maxperf optimized maxbatterylife
 #  ......
 #  powernoden maxperf optimized maxbatterylife
 #  ......
 #  ......
-#  panelresolution=[xres]X[yres], such as panelresolution=1920X1200
+#  panelresolution=[xres]X[yres], such as panelresolution=2048X1536
 #  powernode1 maxperf optimized maxbatterylife
 #  powernode2 maxperf optimized maxbatterylife
 #  ......
