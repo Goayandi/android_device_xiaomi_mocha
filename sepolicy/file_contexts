@@ -11,6 +11,7 @@
 /dev/ov5693.1				u:object_r:camera_device:s0
 /dev/ov7695				u:object_r:camera_device:s0
 /dev/mt9m114				u:object_r:camera_device:s0
+/dev/imx179				u:object_r:camera_device:s0
 /dev/imx135				u:object_r:camera_device:s0
 /dev/ar0261				u:object_r:camera_device:s0
 /dev/imx208				u:object_r:camera_device:s0
