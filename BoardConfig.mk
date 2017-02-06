@@ -44,9 +44,9 @@ TARGET_USERIMAGES_USE_EXT4 := true
 BOARD_BOOTIMAGE_PARTITION_SIZE := 16777216
 BOARD_CACHEIMAGE_PARTITION_SIZE := 1073741824
 BOARD_RECOVERYIMAGE_PARTITION_SIZE := 16777216
-BOARD_SYSTEMIMAGE_PARTITION_SIZE := 1342177280
-BOARD_USERDATAIMAGE_PARTITION_SIZE  := 12799754240
-BOARD_FLASH_BLOCK_SIZE := 4096
+BOARD_SYSTEMIMAGE_PARTITION_SIZE := 671088640
+BOARD_USERDATAIMAGE_PARTITION_SIZE  := 13742637056
+BOARD_FLASH_BLOCK_SIZE := 131072
 
 # PowerHAL
 TARGET_POWERHAL_VARIANT := tegra
@@ -83,9 +83,9 @@ BOARD_WPA_SUPPLICANT_PRIVATE_LIB := lib_driver_cmd_bcmdhd
 BOARD_WLAN_DEVICE                := bcmdhd
 BOARD_HOSTAPD_DRIVER             := NL80211
 BOARD_HOSTAPD_PRIVATE_LIB        := lib_driver_cmd_bcmdhd
-WIFI_DRIVER_FW_PATH_STA          := "/system/vendor/firmware/bcm43241/fw_bcmdhd.bin"
-WIFI_DRIVER_FW_PATH_AP           := "/system/vendor/firmware/bcm43241/fw_bcmdhd.bin"
-WIFI_DRIVER_FW_PATH_P2P          := "/system/vendor/firmware/bcm43241/fw_bcmdhd.bin"
+WIFI_DRIVER_FW_PATH_STA          := "/system/vendor/firmware/bcm4354/fw_bcmdhd.bin"
+WIFI_DRIVER_FW_PATH_AP           := "/system/vendor/firmware/bcm4354/fw_bcmdhd.bin"
+WIFI_DRIVER_FW_PATH_P2P          := "/system/vendor/firmware/bcm4354/fw_bcmdhd.bin"
 WIFI_DRIVER_FW_PATH_PARAM        := "/sys/module/bcmdhd/parameters/firmware_path"
 WIFI_DRIVER_MODULE_ARG           := "iface_name=wlan0"
 WIFI_DRIVER_MODULE_NAME          := "bcmdhd"
